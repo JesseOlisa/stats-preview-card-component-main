@@ -22,7 +22,6 @@ html, body {
     height: 100%;
     align-content: center;
     justify-content:center;
-    text-align: center;
     margin: auto;
 }
 
@@ -40,18 +39,21 @@ html, body {
     font-size: 36px;
     font-weight: 700;
     width: 90%;
+    text-align: left;
 }
 .small_text {
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.7); 
     width: 80%;
     line-height: 1.5;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .stats_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 24px;
     font-weight: 700;
 }
@@ -124,6 +126,7 @@ html, body {
 
     .right_section {
         order: 1;
+        background-image: url(./images/image-header-mobile.jpg);
         height: 300px;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 0px;
